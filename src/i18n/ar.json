@@ -1,0 +1,389 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "about": "من نحن",
+    "services": "الخدمات",
+    "contact": "اتصل بنا",
+    "language": "اللغة",
+    "categories": "الفئات",
+    "search": "البحث",
+    "login": "تسجيل الدخول"
+  },
+  "products": {
+    "title": "منتجاتنا",
+    "subtitle": "منتجات كيميائية عالية الجودة وحلول متكاملة",
+    "description": "اكتشف مجموعتنا الواسعة من المنتجات للتطبيقات المختبرية والصناعية.",
+    "search_placeholder": "البحث برمز المنتج أو الاسم أو رقم CAS...",
+    "filter_by": "تصفية",
+    "sort_by": "ترتيب",
+    "results_found": "منتج موجود",
+    "no_results": "لم يتم العثور على منتجات تطابق معايير البحث.",
+    "view_details": "عرض التفاصيل",
+    "add_to_cart": "أضف إلى السلة",
+    "compare": "مقارنة",
+    "price": "السعر",
+    "stock": "المخزون",
+    "in_stock": "متوفر",
+    "out_of_stock": "غير متوفر",
+    "brand": "العلامة التجارية",
+    "category": "الفئة",
+    "cas_number": "رقم CAS",
+    "molecular_formula": "الصيغة الجزيئية",
+    "molecular_weight": "الوزن الجزيئي",
+    "purity": "النقاء",
+    "package_size": "حجم العبوة",
+    "product_not_found": "المنتج غير موجود",
+    "back_to_products": "العودة إلى المنتجات",
+    "category_not_found": "الفئة غير موجودة",
+    "product_info": "معلومات المنتج",
+    "formula": "الصيغة",
+    "molecular_weight": "الوزن الجزيئي",
+    "purity": "النقاء",
+    "stock": "المخزون",
+    "units_available": "وحدة متوفرة",
+    "add_to_cart": "أضف إلى السلة",
+    "get_quote": "احصل على عرض سعر",
+    "technical_support": "الدعم التقني",
+    "download": "تحميل",
+    "similar_products": "منتجات مشابهة",
+    "tabs": {
+      "description": "الوصف",
+      "specifications": "المواصفات",
+      "applications": "التطبيقات",
+      "documents": "المستندات"
+    },
+    "filters": {
+      "subcategories": "الفئات الفرعية",
+      "price_range": "نطاق السعر",
+      "all": "الكل",
+      "stock_status": "حالة المخزون",
+      "in_stock": "متوفر",
+      "out_of_stock_filter": "غير متوفر"
+    },
+    "sort": {
+      "by_name": "بالاسم",
+      "by_price": "بالسعر",
+      "by_brand": "بالعلامة التجارية"
+    },
+    "labels": {
+      "brand": "العلامة التجارية",
+      "cas": "CAS",
+      "formula": "الصيغة",
+      "purity": "النقاء"
+    }
+  },
+  "categories": {
+    "chemicals": {
+      "title": "المواد الكيميائية",
+      "description": "منتجات كيميائية عالية الجودة للتطبيقات المختبرية والصناعية",
+      "absorbents_adsorbents": "المواد الماصة والممتصة",
+      "acids_bases": "الأحماض والقواعد",
+      "alcohols": "الكحوليات ومشتقاتها",
+      "buffers": "المحاليل المنظمة",
+      "catalysts": "المحفزات",
+      "dyes_stains_indicators": "الأصباغ والملونات والمؤشرات",
+      "elements_solutions": "العناصر والمحاليل العنصرية",
+      "grease_oils_paraffins": "الشحوم والزيوت والبرافينات",
+      "macherey_nagel": "منتجات Macherey-Nagel",
+      "oxides": "الأكاسيد",
+      "salts_minerals": "الأملاح والمعادن",
+      "reagents": "المواد المتفاعلة",
+      "solvents_water": "المذيبات والماء",
+      "standards": "المعايير"
+    },
+    "life_sciences": {
+      "title": "علوم الحياة",
+      "description": "منتجات متخصصة للبحوث البيولوجية وتطبيقات التشخيص",
+      "amino_acids": "الأحماض الأمينية",
+      "antibiotics_antimycotics": "المضادات الحيوية ومضادات الفطريات",
+      "life_sciences_buffers": "محاليل علوم الحياة المنظمة",
+      "bioreagents": "المواد البيولوجية المتفاعلة",
+      "carbohydrates_sugars": "الكربوهيدرات والسكريات",
+      "decontamination_cleaning": "التطهير والتنظيف",
+      "detergents": "المنظفات",
+      "enzymes": "الإنزيمات",
+      "histology": "علم الأنسجة",
+      "microbiology_cell_culture": "الأحياء الدقيقة وزراعة الخلايا",
+      "molecular_biology": "البيولوجيا الجزيئية",
+      "protein_biochemistry": "الكيمياء الحيوية للبروتين",
+      "vitamins": "الفيتامينات"
+    },
+    "raw_materials": {
+      "title": "المواد الخام",
+      "description": "مواد خام للإنتاج الصيدلاني والصناعي",
+      "biopharma": "الأدوية البيولوجية",
+      "pharma": "الأدوية",
+      "diagnostics": "التشخيص",
+      "food": "الغذاء"
+    },
+    "applications": {
+      "title": "مجالات التطبيق",
+      "description": "حلول المنتجات لمجالات التطبيق المتخصصة",
+      "chromatography": "كروماتوغرافيا (GC & HPLC)",
+      "decontamination_cleaning_app": "التطهير والتنظيف",
+      "karl_fischer": "معايرة كارل فيشر",
+      "kjeldahl": "تحليل كيلدال",
+      "microbiology_cell_culture_app": "الأحياء الدقيقة وزراعة الخلايا",
+      "protein_biochemistry_app": "الكيمياء الحيوية للبروتين",
+      "spectroscopy_ms": "التحليل الطيفي وطيف الكتلة",
+      "titration": "المعايرة"
+    }
+  },
+  "about": {
+    "title": "من نحن",
+    "subtitle": "خبرة أكثر من 15 عاماً في الابتكار العلمي",
+    "intro": "كيميلاب، نعمل كمؤسسة رائدة في مجال الكيمياء وعلوم الحياة.",
+    "mission_title": "رسالتنا",
+    "mission_text": "المساهمة في البحث العلمي والتطوير الصناعي من خلال تقديم منتجات وحلول كيميائية عالية الجودة.",
+    "vision_title": "رؤيتنا", 
+    "vision_text": "أن نكون قادة موثوقين في قطاع الكيمياء في تركيا والمنطقة وتطوير تقنيات مستدامة.",
+    "values_title": "قيمنا",
+    "quality": "الجودة",
+    "quality_desc": "جودة المنتج وفقاً للمعايير الدولية",
+    "innovation": "الابتكار",
+    "innovation_desc": "البحث والتطوير المستمر والحلول المبتكرة",
+    "sustainability": "الاستدامة",
+    "sustainability_desc": "عمليات إنتاج صديقة للبيئة",
+    "trust": "الثقة",
+    "trust_desc": "خدمة موثوقة تركز على العملاء",
+    "values_intro": "قيمنا التي تشكل أساس أعمالنا هي مفاتيح نجاحنا.",
+    "technology_title": "التكنولوجيا والابتكار",
+    "technology_desc": "باستخدام أحدث التقنيات، نطور حلولاً رائدة في مجال الكيمياء. بأنشطة البحث والتطوير المستمرة، نشكل الصناعة.",
+    "iso_cert": "شهادة الجودة",
+    "rd_center": "مركز البحوث",
+    "team_title": "فريق خبرائنا",
+    "team_desc": "مع طاقمنا المتمرس والخبير، نقدم أفضل خدمة لعملائنا. نجدد أنفسنا بالتعليم والتطوير المستمر.",
+    "chemical_engineers": "مهندسو كيمياء",
+    "biologists": "علماء أحياء وكيمياء حيوية",
+    "analytical_experts": "خبراء تحليليون"
+  },
+  "services": {
+    "title": "خدماتنا",
+    "subtitle": "حلول شاملة في الكيمياء",
+    "intro": "نقدم مجموعة واسعة من الخدمات من إعداد المختبرات إلى الخدمات التحليلية.",
+    "laboratory_title": "خدمات المختبرات",
+    "laboratory_desc": "خدمات التحليل الكيميائي والاختبار والتحقق في مختبراتنا الحديثة",
+    "consulting_title": "خدمات الاستشارات", 
+    "consulting_desc": "تحسين العمليات والاستشارات التقنية مع فريق خبرائنا",
+    "custom_title": "التصنيع المخصص",
+    "custom_desc": "تطوير وتصنيع منتجات كيميائية مخصصة لاحتياجات العملاء",
+    "training_title": "التدريب والدعم",
+    "training_desc": "التدريب التقني والدعم المستمر للعملاء",
+    "contact_cta": "اتصل بنا للحصول على معلومات مفصلة حول خدماتنا.",
+    "features": {
+      "chemical_analysis": "التحليل الكيميائي",
+      "test_validation": "الاختبار والتحقق",
+      "quality_control": "مراقبة الجودة",
+      "sample_analysis": "تحليل العينات",
+      "process_optimization": "تحسين العمليات",
+      "technical_consulting": "الاستشارات التقنية",
+      "project_management": "إدارة المشاريع",
+      "regulation_support": "دعم اللوائح",
+      "custom_formulation": "تركيبة مخصصة",
+      "small_scale_production": "الإنتاج بنطاق صغير",
+      "prototype_development": "تطوير النماذج الأولية",
+      "scaling": "التوسيع",
+      "technical_training": "التدريب التقني",
+      "safety_training": "تدريب السلامة",
+      "online_support": "الدعم عبر الإنترنت",
+      "customer_service": "خدمة العملاء 24/7"
+    },
+    "process": {
+      "title": "عملية عملنا",
+      "intro": "نتبع عملية منتظمة ومنهجية لتقديم أفضل خدمة لعملائنا.",
+      "need_analysis": "تحليل الاحتياجات",
+      "need_analysis_desc": "نحلل احتياجات العملاء بالتفصيل",
+      "solution_design": "تصميم الحل",
+      "solution_design_desc": "نصمم حلولاً مخصصة لك",
+      "implementation": "التنفيذ",
+      "implementation_desc": "نحقق مشاريعك",
+      "support": "الدعم",
+      "support_desc": "نوفر الدعم والمتابعة المستمرة"
+    },
+    "advantages": {
+      "title": "لماذا كيميلاب؟",
+      "intro": "بخبرتنا التي تزيد عن 15 عاماً وفريق خبرائنا، نقدم لك أفضل خدمة.",
+      "expert_team": "فريق خبراء",
+      "expert_team_desc": "نعمل مع مهندسين وفنيين معتمدين خبراء في مجالهم",
+      "fast_solution": "حل سريع",
+      "fast_solution_desc": "دعم 24/7 وقدرة استجابة سريعة لاحتياجاتك العاجلة",
+      "reliable_service": "خدمة موثوقة",
+      "reliable_service_desc": "ضمان الجودة بمعايير ISO ونهج يركز على رضا العملاء"
+    },
+    "cta": {
+      "title": "استفد من خدماتنا",
+      "contact_now": "اتصل الآن",
+      "download_catalog": "تحميل الكتالوج"
+    }
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "subtitle": "تواصل معنا",
+    "get_in_touch": "تواصل معنا لمعرفة كيف يمكننا مساعدتك.",
+    "address_title": "العنوان",
+    "phone_title": "الهاتف",
+    "email_title": "البريد الإلكتروني",
+    "working_hours": "ساعات العمل",
+    "weekdays": "الإثنين - الجمعة: 09:00 - 18:00",
+    "weekend": "السبت: 09:00 - 13:00",
+    "form_title": "أرسل لنا رسالة",
+    "name": "الاسم الكامل",
+    "email": "بريدك الإلكتروني",
+    "subject": "الموضوع",
+    "message": "رسالتك",
+    "send": "إرسال",
+    "required": "حقل مطلوب",
+    "info_title": "معلومات الاتصال",
+    "location": {
+      "title": "موقعنا",
+      "subtitle": "نرحب بالزوار في موقعنا المركزي",
+      "map_integration": "تكامل الخريطة",
+      "map_note": "سيتم دمج خرائط Google أو خدمة خرائط مشابهة هنا"
+    },
+    "quick_actions": {
+      "title": "التواصل السريع",
+      "call_now": "اتصل الآن",
+      "call_desc": "للحالات الطارئة",
+      "send_email": "أرسل بريد إلكتروني",
+      "email_desc": "للحصول على معلومات مفصلة",
+      "live_support": "الدعم المباشر",
+      "live_desc": "الدردشة عبر الإنترنت"
+    }
+  },
+  "hero": {
+    "title": "مركز الابتكار العلمي",
+    "subtitle": "حلول مبتكرة في الكيمياء والعلوم",
+    "description": "بالتقنيات الحديثة والمناهج العلمية، نقدم حلولاً رائدة في مجال الكيمياء. نشكل المستقبل من خلال بحوثنا وتطويرنا وتطبيقاتنا.",
+    "cta_primary": "اكتشف",
+    "cta_secondary": "اعرف المزيد"
+  },
+  "sections": {
+    "research": {
+      "title": "البحث والتطوير",
+      "description": "في مختبرات البحث المدعومة بأحدث التقنيات، نطور مشاريع رائدة في مجال الكيمياء."
+    },
+    "laboratory": {
+      "title": "المختبرات الحديثة",
+      "description": "في مختبراتنا المجهزة بأجهزة عالية التقنية، نقوم بإجراء تحليلات واختبارات دقيقة."
+    },
+    "innovation": {
+      "title": "مركز الابتكار",
+      "description": "بالفكر الإبداعي والأساليب العلمية، ننتج حلولاً مبتكرة للمشاكل الصناعية."
+    },
+    "sustainability": {
+      "title": "الكيمياء المستدامة",
+      "description": "بمناهج صديقة للبيئة، نطور عمليات ومنتجات كيميائية مستدامة."
+    }
+  },
+  "features": {
+    "expertise": {
+      "title": "الخبرة",
+      "description": "خدمة مهنية مع فريق خبرائنا"
+    },
+    "technology": {
+      "title": "التكنولوجيا",
+      "description": "أحدث الأدوات والطرق التكنولوجية"
+    },
+    "quality": {
+      "title": "الجودة",
+      "description": "ضمان الجودة وفقاً للمعايير الدولية"
+    },
+    "innovation": {
+      "title": "الابتكار",
+      "description": "التطوير المستمر والمناهج المبتكرة"
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "كيميلاب",
+      "description": "كمؤسسة رائدة في مجال البحث والتطوير العلمي، ندفع حدود الكيمياء ونشكل تقنيات الغد اليوم."
+    },
+    "links": {
+      "title": "روابط سريعة",
+      "home": "الرئيسية",
+      "about": "من نحن",
+      "services": "خدماتنا",
+      "products": "منتجاتنا",
+      "research": "البحث",
+      "contact": "اتصل بنا"
+    },
+    "contact": {
+      "title": "معلومات الاتصال",
+      "address": "شارع علوم التكنولوجيا رقم 123، أنقرة، تركيا",
+      "phone": "+90 312 123 45 67",
+      "email": "info@kimyalab.com"
+    },
+    "social": {
+      "title": "وسائل التواصل الاجتماعي",
+      "follow": "تابعنا"
+    },
+    "copyright": "© 2024 كيميلاب. جميع الحقوق محفوظة."
+  },
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ",
+    "retry": "حاول مرة أخرى",
+    "close": "إغلاق",
+    "more": "المزيد",
+    "less": "أقل",
+    "readMore": "اقرأ المزيد",
+    "learnMore": "اعرف المزيد",
+    "back": "العودة",
+    "next": "التالي",
+    "previous": "السابق",
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "confirm": "تأكيد"
+  },
+  "auth": {
+    "welcome": "أهلاً وسهلاً",
+    "join_us": "التسجيل",
+    "login_subtitle": "تسجيل الدخول إلى حسابك",
+    "register_subtitle": "انضم إلى مجتمعنا العلمي",
+    "email": "عنوان بريدك الإلكتروني",
+    "password": "كلمة المرور",
+    "password_confirm": "تأكيد كلمة المرور",
+    "full_name": "الاسم الكامل",
+    "login_button": "تسجيل الدخول",
+    "register_button": "إنشاء حساب",
+    "google_login": "تسجيل الدخول بـ Google",
+    "google_register": "التسجيل بـ Google",
+    "or": "أو",
+    "processing": "جارٍ المعالجة...",
+    "have_account": "لديك حساب بالفعل؟ سجل الدخول",
+    "no_account": "ليس لديك حساب؟ سجل الآن",
+    "back_home": "العودة للرئيسية",
+    "email_required": "عنوان البريد الإلكتروني مطلوب",
+    "email_invalid": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+    "password_required": "كلمة المرور مطلوبة",
+    "password_min": "كلمة المرور يجب أن تكون 6 أحرف على الأقل",
+    "name_required": "الاسم الكامل مطلوب",
+    "password_confirm_required": "تأكيد كلمة المرور مطلوب",
+    "password_mismatch": "كلمات المرور غير متطابقة",
+    "logout": "تسجيل الخروج",
+    "account_created": "تم إنشاء الحساب! يرجى التحقق من بريدك الإلكتروني."
+  },
+  "stats": {
+    "title": "كيميلاب بالأرقام",
+    "experience": "سنة خبرة",
+    "projects": "مشروع ناجح",
+    "experts": "فريق خبراء",
+    "customers": "عميل راضي"
+  },
+  "cta": {
+    "ready_title": "هل أنت مستعد لتحقيق مشاريعك؟",
+    "ready_subtitle": "حول مشاريعك العلمية إلى واقع مع فريق خبرائنا. نحن هنا لإنشاء حلول مخصصة لك.",
+    "get_started": "ابدأ الآن",
+    "learn_more": "اعرف المزيد"
+  },
+  "megaMenu": {
+    "viewAll": "عرض الكل",
+    "featuredProducts": "المنتجات المميزة",
+    "close": "إغلاق",
+    "products": "منتجات"
+  }
+}

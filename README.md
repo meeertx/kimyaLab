@@ -389,4 +389,4 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosy
 
 ---
 
-*Bilimsel İnovasyonun Merkezi* 🧬✨
+*Bilimsel İnovasyonun Merkezi* 🧬✨"# kimyaLab" 

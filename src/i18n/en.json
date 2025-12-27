@@ -1,0 +1,399 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "language": "Language",
+    "categories": "Categories",
+    "search": "Search"
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Quality Chemical Products and Solutions",
+    "description": "Discover our wide range of products for laboratory and industrial applications.",
+    "search_placeholder": "Search by product code, name or CAS number...",
+    "filter_by": "Filter",
+    "sort_by": "Sort",
+    "results_found": "products found",
+    "no_results": "No products found matching your criteria.",
+    "view_details": "View Details",
+    "add_to_cart": "Add to Cart",
+    "compare": "Compare",
+    "price": "Price",
+    "stock": "Stock",
+    "in_stock": "In Stock",
+    "out_of_stock": "Out of Stock",
+    "brand": "Brand",
+    "category": "Category",
+    "cas_number": "CAS Number",
+    "molecular_formula": "Molecular Formula",
+    "molecular_weight": "Molecular Weight",
+    "purity": "Purity",
+    "package_size": "Package Size",
+    "product_not_found": "Product Not Found",
+    "back_to_products": "Back to Products",
+    "category_not_found": "Category Not Found",
+    "product_info": "Product Information",
+    "formula": "Formula",
+    "molecular_weight": "Molecular Weight",
+    "purity": "Purity",
+    "stock": "Stock",
+    "units_available": "units available",
+    "add_to_cart": "Add to Cart",
+    "get_quote": "Get Quote",
+    "technical_support": "Technical Support",
+    "download": "Download",
+    "similar_products": "Similar Products",
+    "tabs": {
+      "description": "Description",
+      "specifications": "Specifications",
+      "applications": "Applications",
+      "documents": "Documents"
+    },
+    "filters": {
+      "subcategories": "Subcategories",
+      "price_range": "Price Range",
+      "all": "All",
+      "stock_status": "Stock Status",
+      "in_stock": "In Stock",
+      "out_of_stock_filter": "Out of Stock"
+    },
+    "sort": {
+      "by_name": "By Name",
+      "by_price": "By Price",
+      "by_brand": "By Brand"
+    },
+    "labels": {
+      "brand": "Brand",
+      "cas": "CAS",
+      "formula": "Formula",
+      "purity": "Purity"
+    }
+  },
+  "categories": {
+    "chemicals": {
+      "title": "Chemicals",
+      "description": "High-quality chemical products for laboratory and industrial applications",
+      "absorbents_adsorbents": "Absorbents & Adsorbents",
+      "acids_bases": "Acids & Bases",
+      "alcohols": "Alcohols",
+      "buffers": "Buffers",
+      "catalysts": "Catalysts",
+      "dyes_stains_indicators": "Dyes, Stains & Indicators",
+      "elements_solutions": "Elements & Elemental Solutions",
+      "grease_oils_paraffins": "Grease, Oils & Paraffins",
+      "macherey_nagel": "Macherey-Nagel Products",
+      "oxides": "Oxides",
+      "salts_minerals": "Salts & Minerals",
+      "reagents": "Reagents",
+      "solvents_water": "Solvents & Water",
+      "standards": "Standards"
+    },
+    "life_sciences": {
+      "title": "Life Sciences",
+      "description": "Specialized products for biological research and diagnostic applications",
+      "amino_acids": "Amino Acids",
+      "antibiotics_antimycotics": "Antibiotics & Antimycotics",
+      "life_sciences_buffers": "Life Sciences Buffers",
+      "bioreagents": "Bioreagents",
+      "carbohydrates_sugars": "Carbohydrates & Sugars",
+      "decontamination_cleaning": "Decontamination & Cleaning",
+      "detergents": "Detergents",
+      "enzymes": "Enzymes",
+      "histology": "Histology",
+      "microbiology_cell_culture": "Microbiology & Cell Culture",
+      "molecular_biology": "Molecular Biology",
+      "protein_biochemistry": "Protein Biochemistry",
+      "vitamins": "Vitamins"
+    },
+    "raw_materials": {
+      "title": "Raw Materials",
+      "description": "Raw materials for pharmaceutical and industrial production",
+      "biopharma": "Biopharma",
+      "pharma": "Pharma",
+      "diagnostics": "Diagnostics",
+      "food": "Food"
+    },
+    "applications": {
+      "title": "Applications",
+      "description": "Product solutions for specialized application areas",
+      "chromatography": "Chromatography (GC & HPLC)",
+      "decontamination_cleaning_app": "Decontamination & Cleaning",
+      "karl_fischer": "Karl Fischer Titration",
+      "kjeldahl": "Kjeldahl Analysis",
+      "microbiology_cell_culture_app": "Microbiology & Cell Culture",
+      "protein_biochemistry_app": "Protein Biochemistry",
+      "spectroscopy_ms": "Spectroscopy & Mass Spectrometry",
+      "titration": "Titration"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "15+ Years of Experience in Scientific Innovation",
+    "intro": "As Kimyalab, we operate as a pioneering organization in the field of chemistry and life sciences.",
+    "mission_title": "Our Mission",
+    "mission_text": "To contribute to scientific research and industrial development by providing the highest quality chemical products and solutions.",
+    "vision_title": "Our Vision", 
+    "vision_text": "To be a trusted leader in Turkey's and the region's chemistry sector and to develop sustainable technologies.",
+    "values_title": "Our Values",
+    "quality": "Quality",
+    "quality_desc": "Product quality at international standards",
+    "innovation": "Innovation",
+    "innovation_desc": "Continuous R&D and innovative solutions",
+    "sustainability": "Sustainability",
+    "sustainability_desc": "Environmentally friendly production processes",
+    "trust": "Trust",
+    "trust_desc": "Customer-focused reliable service",
+    "values_intro": "Our values, which form the foundation of our work, are the keys to our success.",
+    "technology_title": "Technology & Innovation",
+    "technology_desc": "Using the latest technologies, we develop groundbreaking solutions in the field of chemistry. With our continuous research and development activities, we shape the industry.",
+    "iso_cert": "Quality Certificate",
+    "rd_center": "Research Center",
+    "team_title": "Our Expert Team",
+    "team_desc": "With our experienced and expert staff, we provide the best service to our customers. We renew ourselves with continuous education and development.",
+    "chemical_engineers": "Chemical Engineers",
+    "biologists": "Biologists & Biochemists",
+    "analytical_experts": "Analytical Experts"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive Solutions in Chemistry",
+    "intro": "We offer a wide range of services from laboratory setup to analytical services.",
+    "laboratory_title": "Laboratory Services",
+    "laboratory_desc": "Chemical analysis, testing and validation services in our modern laboratories",
+    "consulting_title": "Consulting Services", 
+    "consulting_desc": "Process optimization and technical consulting with our expert team",
+    "custom_title": "Custom Manufacturing",
+    "custom_desc": "Custom chemical product development and manufacturing for customer needs",
+    "training_title": "Training and Support",
+    "training_desc": "Technical training and continuous customer support",
+    "contact_cta": "Contact us for detailed information about our services.",
+    "features": {
+      "chemical_analysis": "Chemical Analysis",
+      "test_validation": "Testing & Validation",
+      "quality_control": "Quality Control",
+      "sample_analysis": "Sample Analysis",
+      "process_optimization": "Process Optimization",
+      "technical_consulting": "Technical Consulting",
+      "project_management": "Project Management",
+      "regulation_support": "Regulatory Support",
+      "custom_formulation": "Custom Formulation",
+      "small_scale_production": "Small Scale Production",
+      "prototype_development": "Prototype Development",
+      "scaling": "Scaling",
+      "technical_training": "Technical Training",
+      "safety_training": "Safety Training",
+      "online_support": "Online Support",
+      "customer_service": "24/7 Customer Service"
+    },
+    "process": {
+      "title": "Our Working Process",
+      "intro": "We follow a regular and systematic process to provide the best service to our customers.",
+      "need_analysis": "Needs Analysis",
+      "need_analysis_desc": "We analyze customer needs in detail",
+      "solution_design": "Solution Design",
+      "solution_design_desc": "We design customized solutions for you",
+      "implementation": "Implementation",
+      "implementation_desc": "We bring your projects to life",
+      "support": "Support",
+      "support_desc": "We provide continuous support and follow-up"
+    },
+    "advantages": {
+      "title": "Why Kimyalab?",
+      "intro": "With our 15+ years of experience and expert team, we provide you with the best service.",
+      "expert_team": "Expert Team",
+      "expert_team_desc": "We work with certified engineers and technicians who are experts in their field",
+      "fast_solution": "Fast Solution",
+      "fast_solution_desc": "24/7 support and rapid response capacity for your urgent needs",
+      "reliable_service": "Reliable Service",
+      "reliable_service_desc": "Quality assurance at ISO standards and customer satisfaction-focused approach"
+    },
+    "cta": {
+      "title": "Benefit from Our Services",
+      "contact_now": "Contact Now",
+      "download_catalog": "Download Catalog"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in Touch",
+    "get_in_touch": "Contact us to learn how we can help you.",
+    "address_title": "Address",
+    "phone_title": "Phone",
+    "email_title": "Email",
+    "working_hours": "Working Hours",
+    "weekdays": "Monday - Friday: 09:00 - 18:00",
+    "weekend": "Saturday: 09:00 - 13:00",
+    "form_title": "Send Us a Message",
+    "name": "Full Name",
+    "email": "Your Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send",
+    "required": "Required field",
+    "info_title": "Contact Information",
+    "location": {
+      "title": "Our Location",
+      "subtitle": "We welcome visitors at our central location",
+      "map_integration": "Map Integration",
+      "map_note": "Google Maps or similar map service will be integrated here"
+    },
+    "quick_actions": {
+      "title": "Quick Contact",
+      "call_now": "Call Now",
+      "call_desc": "For emergencies",
+      "send_email": "Send Email",
+      "email_desc": "For detailed information",
+      "live_support": "Live Support",
+      "live_desc": "Online chat"
+    }
+  },
+  "hero": {
+    "title": "Center of Scientific Innovation",
+    "subtitle": "Innovative Solutions in Chemistry and Science",
+    "description": "With modern technologies and scientific approaches, we provide pioneering solutions in the field of chemistry. We shape the future with our research, development and applications.",
+    "cta_primary": "Discover",
+    "cta_secondary": "Learn More"
+  },
+  "sections": {
+    "research": {
+      "title": "Research & Development",
+      "description": "In our research laboratories supported by the latest technologies, we develop groundbreaking projects in the field of chemistry."
+    },
+    "laboratory": {
+      "title": "Modern Laboratories",
+      "description": "In our laboratories equipped with high-tech devices, we perform precise analyzes and tests."
+    },
+    "innovation": {
+      "title": "Innovation Center",
+      "description": "With creative thinking and scientific methods, we produce innovative solutions to industrial problems."
+    },
+    "sustainability": {
+      "title": "Sustainable Chemistry",
+      "description": "With environmentally friendly approaches, we develop sustainable chemical processes and products."
+    }
+  },
+  "features": {
+    "expertise": {
+      "title": "Expertise",
+      "description": "Professional service with our expert team"
+    },
+    "technology": {
+      "title": "Technology",
+      "description": "Latest technological tools and methods"
+    },
+    "quality": {
+      "title": "Quality",
+      "description": "Quality assurance at international standards"
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "Continuous development and innovative approaches"
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "Kimyalab",
+      "description": "As a pioneering organization in the field of scientific research and development, we push the boundaries of chemistry and shape tomorrow's technologies today."
+    },
+    "links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "products": "Our Products",
+      "research": "Research",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact Information",
+      "address": "Science Technology St. No:123, Ankara, Turkey",
+      "phone": "+90 312 123 45 67",
+      "email": "info@kimyalab.com"
+    },
+    "social": {
+      "title": "Social Media",
+      "follow": "Follow us"
+    },
+    "copyright": "© 2024 Kimyalab. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try Again",
+    "close": "Close",
+    "more": "More",
+    "less": "Less",
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm"
+  },
+  "auth": {
+    "welcome": "Welcome",
+    "join_us": "Sign Up",
+    "login_subtitle": "Sign in to your account",
+    "register_subtitle": "Join our scientific community",
+    "email": "Your email address",
+    "password": "Your password",
+    "password_confirm": "Confirm your password",
+    "full_name": "Full Name",
+    "login_button": "Sign In",
+    "register_button": "Create Account",
+    "google_login": "Sign in with Google",
+    "google_register": "Sign up with Google",
+    "or": "or",
+    "processing": "Processing...",
+    "have_account": "Already have an account? Sign in",
+    "no_account": "Don't have an account? Sign up",
+    "back_home": "Back to home",
+    "email_required": "Email address is required",
+    "email_invalid": "Please enter a valid email address",
+    "password_required": "Password is required",
+    "password_min": "Password must be at least 6 characters",
+    "name_required": "Full name is required",
+    "password_confirm_required": "Password confirmation is required",
+    "password_mismatch": "Passwords do not match",
+    "logout": "Sign Out",
+    "account_created": "Account created! Please verify your email address."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "language": "Language",
+    "categories": "Categories",
+    "search": "Search",
+    "login": "Sign In"
+  },
+  "stats": {
+    "title": "Kimyalab by Numbers",
+    "experience": "Years Experience",
+    "projects": "Successful Projects",
+    "experts": "Expert Team",
+    "customers": "Happy Customers"
+  },
+  "cta": {
+    "ready_title": "Ready to Bring Your Projects to Life?",
+    "ready_subtitle": "Transform your scientific projects into reality with our expert team. We're here to create customized solutions for you.",
+    "get_started": "Get Started",
+    "learn_more": "Learn More"
+  },
+  "megaMenu": {
+    "viewAll": "View All",
+    "featuredProducts": "Featured Products",
+    "close": "Close",
+    "products": "products"
+  }
+}

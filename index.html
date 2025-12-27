@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kimyalab - Bilimsel İnovasyonun Merkezi. Modern teknolojiler ve bilimsel yaklaşımlarla, kimya alanında öncü çözümler sunuyoruz." />
+  <meta name="keywords" content="kimya, laboratuvar, araştırma, bilim, teknoloji, inovasyon" />
+  <meta name="author" content="Kimyalab" />
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Kimyalab - Bilimsel İnovasyonun Merkezi" />
+  <meta property="og:description" content="Modern teknolojiler ve bilimsel yaklaşımlarla, kimya alanında öncü çözümler sunuyoruz." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kimyalab.com" />
+  <meta property="og:image" content="/og-image.png" />
+  
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kimyalab - Bilimsel İnovasyonun Merkezi" />
+  <meta name="twitter:description" content="Modern teknolojiler ve bilimsel yaklaşımlarla, kimya alanında öncü çözümler sunuyoruz." />
+  
+  <!-- Preload Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Kimyalab - Bilimsel İnovasyonun Merkezi</title>
+  
+  <style>
+    /* Loading Screen */
+    #loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      transition: opacity 0.5s ease;
+    }
+    
+    #loading-screen.fade-out {
+      opacity: 0;
+      pointer-events: none;
+    }
+    
+    .loading-spinner {
+      width: 60px;
+      height: 60px;
+      border: 4px solid #e2e8f0;
+      border-top: 4px solid #3b82f6;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loading-spinner"></div>
+  </div>
+  
+  <!-- React App -->
+  <div id="root"></div>
+  <script type="module" src="/src/index.tsx"></script>
+  
+  <script>
+    // Remove loading screen when page is loaded
+    window.addEventListener('load', function() {
+      setTimeout(() => {
+        const loadingScreen = document.getElementById('loading-screen');
+        if (loadingScreen) {
+          loadingScreen.classList.add('fade-out');
+          setTimeout(() => {
+            loadingScreen.remove();
+          }, 500);
+        }
+      }, 800);
+    });
+  </script>
+</body>
+</html>

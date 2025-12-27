@@ -1,0 +1,124 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id         String      @id @default(cuid())
+  email      String      @unique
+  password   String?
+  name       String?
+  role       UserRole    @default(USER)
+  isActive   Boolean     @default(true)
+  createdAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+  authTokens AuthToken[]
+  documents  Document[]  @relation("DocumentUploader")
+
+  @@map("users")
+}
+
+model AuthToken {
+  id        String   @id @default(cuid())
+  userId    String
+  token     String   @unique
+  type      String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("auth_tokens")
+}
+
+model Category {
+  id          String     @id @default(cuid())
+  name        String
+  slug        String     @unique
+  description String?
+  parentId    String?
+  imageUrl    String?
+  isActive    Boolean    @default(true)
+  order       Int        @default(0)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+  parent      Category?  @relation("CategoryHierarchy", fields: [parentId], references: [id])
+  children    Category[] @relation("CategoryHierarchy")
+  products    Product[]
+
+  @@map("categories")
+}
+
+model Product {
+  id             String     @id @default(cuid())
+  name           String
+  code           String     @unique
+  description    String?
+  category       String
+  subCategory    String?
+  price          Decimal    @db.Decimal(10, 2)
+  currency       String     @default("TRY")
+  stockQuantity  Int        @default(0)
+  minStockLevel  Int        @default(0)
+  unit           String     @default("pieces")
+  isActive       Boolean    @default(true)
+  createdBy      String
+  technicalSpecs Json?
+  applications   String[]
+  certifications String[]
+  images         String[]
+  categoryId     String
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+  inventory      Inventory?
+  categoryRef    Category   @relation(fields: [categoryId], references: [id])
+
+  @@index([categoryId])
+  @@index([code])
+  @@index([isActive])
+  @@map("products")
+}
+
+model Inventory {
+  id          String    @id @default(cuid())
+  quantity    Int       @default(0)
+  minLevel    Int       @default(0)
+  maxLevel    Int?
+  location    String?
+  batchNumber String?
+  expiryDate  DateTime?
+  costPrice   Decimal?  @db.Decimal(10, 2)
+  lastUpdated DateTime  @default(now())
+  updatedBy   String
+  productId   String    @unique
+  product     Product   @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@map("inventory")
+}
+
+model Document {
+  id         String   @id @default(cuid())
+  name       String
+  type       String
+  fileUrl    String
+  fileName   String
+  fileSize   Int
+  mimeType   String
+  productId  String?
+  categoryId String?
+  isPublic   Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  uploadedBy String
+  uploader   User     @relation("DocumentUploader", fields: [uploadedBy], references: [id])
+
+  @@map("documents")
+}
+
+enum UserRole {
+  USER
+  ADMIN
+}

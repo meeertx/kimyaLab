@@ -1,0 +1,399 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "products": "Ürünler",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "language": "Dil",
+    "categories": "Kategoriler",
+    "search": "Ara"
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Kaliteli Kimyasal Ürünler ve Çözümler",
+    "description": "Laboratuvar ve endüstriyel uygulamalar için geniş ürün yelpazemizi keşfedin.",
+    "search_placeholder": "Ürün kodu, isim veya CAS numarası ile ara...",
+    "filter_by": "Filtrele",
+    "sort_by": "Sırala",
+    "results_found": "ürün bulundu",
+    "no_results": "Aradığınız kriterlere uygun ürün bulunamadı.",
+    "view_details": "Detayları Gör",
+    "add_to_cart": "Sepete Ekle",
+    "compare": "Karşılaştır",
+    "price": "Fiyat",
+    "stock": "Stok",
+    "in_stock": "Stokta",
+    "out_of_stock": "Stokta Yok",
+    "brand": "Marka",
+    "category": "Kategori",
+    "cas_number": "CAS Numarası",
+    "molecular_formula": "Moleküler Formül",
+    "molecular_weight": "Moleküler Ağırlık",
+    "purity": "Saflık",
+    "package_size": "Paket Boyutu",
+    "product_not_found": "Ürün Bulunamadı",
+    "back_to_products": "Ürünlere Dön",
+    "category_not_found": "Kategori Bulunamadı",
+    "product_info": "Ürün Bilgileri",
+    "formula": "Formül",
+    "molecular_weight": "Moleküler Ağırlık",
+    "purity": "Saflık",
+    "stock": "Stok",
+    "units_available": "adet mevcut",
+    "add_to_cart": "Sepete Ekle",
+    "get_quote": "Fiyat Teklifi Al",
+    "technical_support": "Teknik Destek",
+    "download": "İndir",
+    "similar_products": "Benzer Ürünler",
+    "tabs": {
+      "description": "Açıklama",
+      "specifications": "Özellikler",
+      "applications": "Kullanım Alanları",
+      "documents": "Dökümanlar"
+    },
+    "filters": {
+      "subcategories": "Alt Kategoriler",
+      "price_range": "Fiyat Aralığı",
+      "all": "Tümü",
+      "stock_status": "Stok Durumu",
+      "in_stock": "Stokta Var",
+      "out_of_stock_filter": "Stokta Yok"
+    },
+    "sort": {
+      "by_name": "İsme Göre",
+      "by_price": "Fiyata Göre",
+      "by_brand": "Markaya Göre"
+    },
+    "labels": {
+      "brand": "Marka",
+      "cas": "CAS",
+      "formula": "Formül",
+      "purity": "Saflık"
+    }
+  },
+  "categories": {
+    "chemicals": {
+      "title": "Kimyasallar",
+      "description": "Laboratuvar ve endüstriyel uygulamalar için yüksek kaliteli kimyasal ürünler",
+      "absorbents_adsorbents": "Absorbentler & Adsorbentler",
+      "acids_bases": "Asitler & Bazlar",
+      "alcohols": "Alkol ve Alkol Türevleri",
+      "buffers": "Tamponlar",
+      "catalysts": "Katalizörler",
+      "dyes_stains_indicators": "Boyalar, Boya Maddeleri & Göstergeler",
+      "elements_solutions": "Elementler & Element Çözümleri",
+      "grease_oils_paraffins": "Yağlar, Yağlar & Paraffinler",
+      "macherey_nagel": "Macherey-Nagel Ürünleri",
+      "oxides": "Oksitler",
+      "salts_minerals": "Tuzlar & Mineraller",
+      "reagents": "Reaktifler",
+      "solvents_water": "Solventler & Su",
+      "standards": "Standartlar"
+    },
+    "life_sciences": {
+      "title": "Yaşam Bilimleri",
+      "description": "Biyolojik araştırma ve tanı uygulamaları için özel ürünler",
+      "amino_acids": "Amino Asitler",
+      "antibiotics_antimycotics": "Antibiyotikler & Antimykotikler",
+      "life_sciences_buffers": "Yaşam Bilimleri Tamponları",
+      "bioreagents": "Biyoreaktifler",
+      "carbohydrates_sugars": "Karbohidratlar & Şekerler",
+      "decontamination_cleaning": "Dezenfeksiyon & Temizlik",
+      "detergents": "Deterjanlar",
+      "enzymes": "Enzimler",
+      "histology": "Histoloji",
+      "microbiology_cell_culture": "Mikrobiyoloji & Hücre Kültürü",
+      "molecular_biology": "Moleküler Biyoloji",
+      "protein_biochemistry": "Protein Biyokimyası",
+      "vitamins": "Vitaminler"
+    },
+    "raw_materials": {
+      "title": "Hammaddeler",
+      "description": "Farmasötik ve endüstriyel üretim için ham maddeler",
+      "biopharma": "Biyofarma",
+      "pharma": "Farmasötik",
+      "diagnostics": "Diyagnostik",
+      "food": "Gıda"
+    },
+    "applications": {
+      "title": "Uygulama Alanları",
+      "description": "Özel uygulama alanları için ürün çözümleri",
+      "chromatography": "Kromatografi (GC & HPLC)",
+      "decontamination_cleaning_app": "Dezenfeksiyon & Temizlik",
+      "karl_fischer": "Karl Fischer Titrasyonu",
+      "kjeldahl": "Kjeldahl Analizi",
+      "microbiology_cell_culture_app": "Mikrobiyoloji & Hücre Kültürü",
+      "protein_biochemistry_app": "Protein Biyokimyası",
+      "spectroscopy_ms": "Spektroskopi & Kütle Spektrometrisi",
+      "titration": "Titrasyon"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "Bilimsel İnovasyonda 15+ Yıllık Deneyim",
+    "intro": "Kimyalab olarak, kimya ve yaşam bilimleri alanında öncü bir kuruluş olarak faaliyet göstermekteyiz.",
+    "mission_title": "Misyonumuz",
+    "mission_text": "En yüksek kalitede kimyasal ürünler ve çözümler sunarak, bilimsel araştırma ve endüstriyel gelişime katkıda bulunmak.",
+    "vision_title": "Vizyonumuz", 
+    "vision_text": "Türkiye'nin ve bölgenin kimya sektöründe güvenilir lider olmak ve sürdürülebilir teknolojiler geliştirmek.",
+    "values_title": "Değerlerimiz",
+    "quality": "Kalite",
+    "quality_desc": "Uluslararası standartlarda ürün kalitesi",
+    "innovation": "İnovasyon",
+    "innovation_desc": "Sürekli Ar-Ge ve yenilikçi çözümler",
+    "sustainability": "Sürdürülebilirlik",
+    "sustainability_desc": "Çevre dostu üretim süreçleri",
+    "trust": "Güven",
+    "trust_desc": "Müşteri odaklı güvenilir hizmet",
+    "values_intro": "Çalışmalarımızın temelini oluşturan değerlerimiz, başarımızın anahtarıdır.",
+    "technology_title": "Teknoloji & İnovasyon",
+    "technology_desc": "En yeni teknolojileri kullanarak, kimya alanında çığır açan çözümler geliştiriyoruz. Sürekli araştırma ve geliştirme faaliyetlerimizle sektöre yön veriyoruz.",
+    "iso_cert": "Kalite Sertifikası",
+    "rd_center": "Araştırma Merkezi",
+    "team_title": "Uzman Ekibimiz",
+    "team_desc": "Alanlarında uzman, deneyimli kadromuzla müşterilerimize en iyi hizmeti sunuyoruz. Sürekli eğitim ve gelişim ile kendimizi yeniliyoruz.",
+    "chemical_engineers": "Kimya Mühendisleri",
+    "biologists": "Biyolog & Biyokimyager",
+    "analytical_experts": "Analitik Uzmanları"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Kimya Alanında Kapsamlı Çözümler",
+    "intro": "Laboratuvar kurulumundan analiz hizmetlerine kadar geniş bir hizmet yelpazesi sunuyoruz.",
+    "laboratory_title": "Laboratuvar Hizmetleri",
+    "laboratory_desc": "Modern laboratuvarlarımızda kimyasal analiz, test ve validasyon hizmetleri",
+    "consulting_title": "Danışmanlık Hizmetleri", 
+    "consulting_desc": "Uzman kadromuzla süreç optimizasyonu ve teknik danışmanlık",
+    "custom_title": "Özel Üretim",
+    "custom_desc": "Müşteri ihtiyaçlarına özel kimyasal ürün geliştirme ve üretimi",
+    "training_title": "Eğitim ve Destek",
+    "training_desc": "Teknik eğitimler ve sürekli müşteri desteği",
+    "contact_cta": "Hizmetlerimiz hakkında detaylı bilgi için iletişime geçin.",
+    "features": {
+      "chemical_analysis": "Kimyasal Analiz",
+      "test_validation": "Test & Validasyon",
+      "quality_control": "Kalite Kontrol",
+      "sample_analysis": "Numune Analizi",
+      "process_optimization": "Süreç Optimizasyonu",
+      "technical_consulting": "Teknik Danışmanlık",
+      "project_management": "Proje Yönetimi",
+      "regulation_support": "Regulasyon Desteği",
+      "custom_formulation": "Özel Formülasyon",
+      "small_scale_production": "Küçük Ölçek Üretim",
+      "prototype_development": "Prototip Geliştirme",
+      "scaling": "Ölçeklendirme",
+      "technical_training": "Teknik Eğitimler",
+      "safety_training": "Güvenlik Eğitimleri",
+      "online_support": "Online Destek",
+      "customer_service": "7/24 Müşteri Hizmetleri"
+    },
+    "process": {
+      "title": "Çalışma Sürecimiz",
+      "intro": "Müşterilerimize en iyi hizmeti sunabilmek için düzenli ve sistematik bir süreç izliyoruz.",
+      "need_analysis": "İhtiyaç Analizi",
+      "need_analysis_desc": "Müşteri ihtiyaçlarını detaylı analiz ediyoruz",
+      "solution_design": "Çözüm Tasarımı",
+      "solution_design_desc": "Size özel çözümler tasarlıyoruz",
+      "implementation": "Uygulama",
+      "implementation_desc": "Projelerinizi hayata geçiriyoruz",
+      "support": "Destek",
+      "support_desc": "Sürekli destek ve takip sağlıyoruz"
+    },
+    "advantages": {
+      "title": "Neden Kimyalab?",
+      "intro": "15+ yıllık deneyimimiz ve uzman kadromuzla size en iyi hizmeti sunuyoruz.",
+      "expert_team": "Uzman Kadro",
+      "expert_team_desc": "Alanında uzman, sertifikalı mühendis ve teknisyenlerle çalışıyoruz",
+      "fast_solution": "Hızlı Çözüm",
+      "fast_solution_desc": "Acil ihtiyaçlarınız için 24/7 destek ve hızlı müdahale kapasitemiz",
+      "reliable_service": "Güvenilir Hizmet",
+      "reliable_service_desc": "ISO standartlarında kalite güvencesi ve müşteri memnuniyeti odaklı yaklaşım"
+    },
+    "cta": {
+      "title": "Hizmetlerimizden Yararlanın",
+      "contact_now": "Hemen İletişime Geçin",
+      "download_catalog": "Katalog İndirin"
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bizimle İletişime Geçin",
+    "get_in_touch": "Size nasıl yardımcı olabileceğimizi öğrenmek için bizimle iletişime geçin.",
+    "address_title": "Adres",
+    "phone_title": "Telefon",
+    "email_title": "E-posta",
+    "working_hours": "Çalışma Saatleri",
+    "weekdays": "Pazartesi - Cuma: 09:00 - 18:00",
+    "weekend": "Cumartesi: 09:00 - 13:00",
+    "form_title": "Bize Mesaj Gönderin",
+    "name": "Ad Soyad",
+    "email": "E-posta Adresiniz",
+    "subject": "Konu",
+    "message": "Mesajınız",
+    "send": "Gönder",
+    "required": "Zorunlu alan",
+    "info_title": "İletişim Bilgileri",
+    "location": {
+      "title": "Konumumuz",
+      "subtitle": "Merkezi konumumuzda ziyaretçilerimizi bekliyoruz",
+      "map_integration": "Harita Entegrasyonu",
+      "map_note": "Google Maps veya benzeri harita hizmeti buraya entegre edilecek"
+    },
+    "quick_actions": {
+      "title": "Hızlı İletişim",
+      "call_now": "Hemen Ara",
+      "call_desc": "Acil durumlar için",
+      "send_email": "Email Gönder",
+      "email_desc": "Detaylı bilgi için",
+      "live_support": "Canlı Destek",
+      "live_desc": "Online sohbet"
+    }
+  },
+  "hero": {
+    "title": "Bilimsel İnovasyonun Merkezi",
+    "subtitle": "Kimya ve Bilim Dünyasında Yenilikçi Çözümler",
+    "description": "Modern teknolojiler ve bilimsel yaklaşımlarla, kimya alanında öncü çözümler sunuyoruz. Araştırma, geliştirme ve uygulamalarımızla geleceği şekillendiriyoruz.",
+    "cta_primary": "Keşfet",
+    "cta_secondary": "Daha Fazla Bilgi"
+  },
+  "sections": {
+    "research": {
+      "title": "Araştırma & Geliştirme",
+      "description": "En son teknolojilerle desteklenen araştırma laboratuvarlarımızda, kimya alanında çığır açan projeler geliştiriyoruz."
+    },
+    "laboratory": {
+      "title": "Modern Laboratuvarlar",
+      "description": "Yüksek teknoloji cihazlarla donatılmış laboratuvarlarımızda, hassas analizler ve testler gerçekleştiriyoruz."
+    },
+    "innovation": {
+      "title": "İnovasyon Merkezi",
+      "description": "Yaratıcı düşünce ve bilimsel yöntemlerle, endüstriyel sorunlara yenilikçi çözümler üretiyoruz."
+    },
+    "sustainability": {
+      "title": "Sürdürülebilir Kimya",
+      "description": "Çevre dostu yaklaşımlarla, sürdürülebilir kimyasal süreçler ve ürünler geliştiriyoruz."
+    }
+  },
+  "features": {
+    "expertise": {
+      "title": "Uzmanlık",
+      "description": "Alanında uzman ekibimizle profesyonel hizmet"
+    },
+    "technology": {
+      "title": "Teknoloji",
+      "description": "En son teknolojik araçlar ve yöntemler"
+    },
+    "quality": {
+      "title": "Kalite",
+      "description": "Uluslararası standartlarda kalite güvencesi"
+    },
+    "innovation": {
+      "title": "İnovasyon",
+      "description": "Sürekli gelişim ve yenilikçi yaklaşımlar"
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "Kimyalab",
+      "description": "Bilimsel araştırma ve geliştirme alanında öncü bir kuruluş olarak, kimya biliminin sınırlarını zorluyor ve geleceğin teknolojilerini bugünden şekillendiriyoruz."
+    },
+    "links": {
+      "title": "Hızlı Bağlantılar",
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda",
+      "services": "Hizmetlerimiz",
+      "products": "Ürünlerimiz",
+      "research": "Araştırma",
+      "contact": "İletişim"
+    },
+    "contact": {
+      "title": "İletişim Bilgileri",
+      "address": "Bilim Teknoloji Cd. No:123, Ankara, Türkiye",
+      "phone": "+90 312 123 45 67",
+      "email": "info@kimyalab.com"
+    },
+    "social": {
+      "title": "Sosyal Medya",
+      "follow": "Bizi takip edin"
+    },
+    "copyright": "© 2024 Kimyalab. Tüm hakları saklıdır."
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar Dene",
+    "close": "Kapat",
+    "more": "Daha Fazla",
+    "less": "Daha Az",
+    "readMore": "Devamını Oku",
+    "learnMore": "Daha Fazla Öğren",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "submit": "Gönder",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "confirm": "Onayla"
+  },
+  "auth": {
+    "welcome": "Hoş Geldiniz",
+    "join_us": "Üye Ol",
+    "login_subtitle": "Hesabınıza giriş yapın",
+    "register_subtitle": "Bilimsel dünyamıza katılın",
+    "email": "Email adresiniz",
+    "password": "Şifreniz",
+    "password_confirm": "Şifrenizi tekrar girin",
+    "full_name": "Ad Soyad",
+    "login_button": "Giriş Yap",
+    "register_button": "Hesap Oluştur",
+    "google_login": "Google ile giriş yap",
+    "google_register": "Google ile kayıt ol",
+    "or": "veya",
+    "processing": "İşleniyor...",
+    "have_account": "Zaten hesabınız var mı? Giriş yapın",
+    "no_account": "Hesabınız yok mu? Üye olun",
+    "back_home": "Ana sayfaya dön",
+    "email_required": "Email adresi gerekli",
+    "email_invalid": "Geçerli bir email adresi girin",
+    "password_required": "Şifre gerekli",
+    "password_min": "Şifre en az 6 karakter olmalı",
+    "name_required": "Ad Soyad gerekli",
+    "password_confirm_required": "Şifre tekrarı gerekli",
+    "password_mismatch": "Şifreler eşleşmiyor",
+    "logout": "Çıkış Yap",
+    "account_created": "Hesabınız oluşturuldu! Lütfen email adresinizi doğrulayın."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "products": "Ürünler",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "language": "Dil",
+    "categories": "Kategoriler",
+    "search": "Ara",
+    "login": "Giriş Yap"
+  },
+  "stats": {
+    "title": "Rakamlarla Kimyalab",
+    "experience": "Yıl Deneyim",
+    "projects": "Başarılı Proje",
+    "experts": "Uzman Ekip",
+    "customers": "Mutlu Müşteri"
+  },
+  "cta": {
+    "ready_title": "Projelerinizi Hayata Geçirmeye Hazır mısınız?",
+    "ready_subtitle": "Uzman ekibimizle birlikte bilimsel projelerinizi gerçeğe dönüştürün. Size özel çözümler üretmek için buradayız.",
+    "get_started": "Hemen Başlayın",
+    "learn_more": "Daha Fazla Bilgi"
+  },
+  "megaMenu": {
+    "viewAll": "Tümünü Gör",
+    "featuredProducts": "Öne Çıkan Ürünler",
+    "close": "Kapat",
+    "products": "ürün"
+  }
+}
